@@ -1,0 +1,10 @@
+<div class="container content-wrapper">
+  <div *ngFor="let actor of actors$ | async" class="card">
+    <img src="{{ imageUrl(actor.image) }}" alt="{{ actor.name }}" />
+    <div class="card-body">
+      <h5 class="card-title">
+        {{ actor.name }}
+      </h5>
+    </div>
+  </div>
+</div>
