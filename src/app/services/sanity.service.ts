@@ -14,7 +14,7 @@ export class SanityService {
 
   sanityClientCredentials = {
     option: sanityClient({
-      projectId: "eefg2pox",
+      projectId: "1irfsm5z",
       dataset: "production"
     })
   }
